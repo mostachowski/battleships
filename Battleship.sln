@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Battleship.UI", "Battleship\Battleship.UI.csproj", "{501C6300-62E0-4CD1-90DE-C18CE9AEA0D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Battleship.Domain", "Battleship.Domain\Battleship.Domain.csproj", "{48DC0613-086E-4668-8582-D410ED826F44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Battleship.Domain.Tests", "Battleship.Domain.Tests\Battleship.Domain.Tests.csproj", "{40486646-5F72-464F-B689-63715AADB824}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{501C6300-62E0-4CD1-90DE-C18CE9AEA0D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501C6300-62E0-4CD1-90DE-C18CE9AEA0D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501C6300-62E0-4CD1-90DE-C18CE9AEA0D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501C6300-62E0-4CD1-90DE-C18CE9AEA0D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DC0613-086E-4668-8582-D410ED826F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DC0613-086E-4668-8582-D410ED826F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DC0613-086E-4668-8582-D410ED826F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DC0613-086E-4668-8582-D410ED826F44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40486646-5F72-464F-B689-63715AADB824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40486646-5F72-464F-B689-63715AADB824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40486646-5F72-464F-B689-63715AADB824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40486646-5F72-464F-B689-63715AADB824}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DFFE8EF-17D2-4AF6-8CCC-D79DF7A1034D}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
